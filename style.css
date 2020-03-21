@@ -12,4 +12,6 @@ body {
 header {
     display: flex;
     background-color: lightblue;
+    width: 90%;
+    margin: auto;
 }
