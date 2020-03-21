@@ -11,7 +11,37 @@ body {
 
 header {
     display: flex;
-    background-color: lightblue;
     width: 90%;
+    height: 10vh;
     margin: auto;
+    align-items: center;
+}
+
+.logo-container,
+.nav-links,
+.cart {
+	display: flex;
+}
+
+.logo-container {
+
+    flex: 1;
+
+}
+
+.logo {
+    font-weight: 400;
+    margin: 5px;
+}
+
+nav {
+
+    flex: 2;
+
+}
+
+.cart {
+
+    flex: 1;
+
 }
